@@ -1,8 +1,14 @@
 {
   "name": "s3-file-upload-restful-api",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "upload.js",
   "repository": "https://github.com/dineshtamang14/s3-file-upload-restful-api.git",
   "author": "Dinesh Tamang <dineshtamang7263@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "serverless-iam-roles-per-function": "^3.2.0"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1323.0"
+  }
 }
