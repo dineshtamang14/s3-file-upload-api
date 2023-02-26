@@ -26,7 +26,7 @@ functions:
     iamRoleStatements: 
       - Effect: Allow
         Action:
-          - "s3:Put*"
+          - s3:Put*
         Resources: arn:aws:s3:::${self:custom.fileUploadBucketName}/*
     environment:
       FILE_UPLOAD_BUCKET_NAME: ${self:custom.fileUploadBucketName}
