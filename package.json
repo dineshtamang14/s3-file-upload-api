@@ -1,0 +1,8 @@
+{
+  "name": "s3-file-upload-restful-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/dineshtamang14/s3-file-upload-restful-api.git",
+  "author": "Dinesh Tamang <dineshtamang7263@gmail.com>",
+  "license": "MIT"
+}
